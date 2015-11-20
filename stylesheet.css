@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo|PT+Sans);
+header {
+    padding-left: 5px;
+    background-color: #F8C2FF;
+    margin:0 auto;
+    background-size: 100%;
+    font-family: "Arvo", serif;
+    border-top: #F8C2FF solid 20px;
+}
+html {
+    background-color: #CABBCC;
+    color: #7E6E7F;
+}
+.form {
+    width:100%;
+    align-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-family: "PT Sans", sans-serif;
+}
+.box {
+    margin-left: 10px;
+}
+
+@media all and (max-width:500px) {
+    .usertext {
+        display: none;
+    }
+    .emailtext {
+        display: none;
+    }
+    .websitetext {
+        display: none;
+    }
+    .passtext {
+        display: none;
+        }
+    .email {
+        float:left;
+        width:100%;
+        margin-bottom: 5px;
+    }
+    .pass {
+        float:left;
+        width:100%;
+        margin-bottom: 5px;
+    }
+    .website {
+        float:left;
+        width:100%;
+        margin-bottom: 5px;
+    }
+    .user {
+        float:left;
+        width:100%;
+        margin-bottom: 5px;
+    }
+}
+@media all and (min-width:800px) {
+    .user {
+        margin-bottom: 5px;
+    }
+    .website {
+        margin-bottom: 5px;
+    }
+    .email {
+        margin-bottom: 5px;
+    }
+    .pass {
+        margin-bottom: 5px;
+    }
+    .usertext {
+        float:left;
+    }
+    .emailtext {
+        float:left;
+    }
+    .websitetext {
+        float:left;
+    }
+    .passtext {
+        float:left;
+    }
+}
+@media all and (min-width:500px) {
+    .user {
+        float:left;
+        width:40%;
+        margin-bottom: 10px;
+    }
+    .email {
+        float:right;
+        width:40%;
+        margin-bottom: 10px;
+    }
+    .website {
+        float:left;
+        width:40%;
+        margin-bottom: 5px;
+    }
+    .pass {
+        float:right;
+        width:40%;
+        margin-bottom: 5px;
+    }
+    .button {
+        float:left;
+        clear:right;
+    }
+}
